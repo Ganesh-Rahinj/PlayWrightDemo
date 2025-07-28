@@ -12,7 +12,6 @@ test('handle inner frame',async({page})=>{
 
    await child_frame[0].locator("//*[@id='i6']/div[3]/div").check()
 
-
    await page.waitForTimeout(3000)
 
 

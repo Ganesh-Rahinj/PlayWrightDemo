@@ -45,10 +45,3 @@ await dialog.accept('ganesh')
  })
 page.locator("//button[@id='promptBtn']").click();
 
-
-
-
-
-
-
-
