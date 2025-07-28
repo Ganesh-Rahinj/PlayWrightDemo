@@ -4,7 +4,7 @@ import {readExcelData} from '../tests/ReadExcel.spec.js';
 import {readExcel} from './ReadExcel.spec.js';
 const reader=new readExcel();
 
-test.skip('datadriventest',async({page})=>{
+test('datadriventest',async({page})=>{
 const datas=await reader.readExcelData('data1.xlsx','Sheet1');
 for(const data of datas)
 {
