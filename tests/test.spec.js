@@ -19,9 +19,9 @@ await page.locator('#twotabsearchtextbox').fill('Smart Phones')
 
 await page.locator('#nav-search-submit-button').click()
 
-await page.locator("//h2[@class='a-size-medium a-spacing-none a-color-base a-text-normal']//span[contains(text(),'realme GT 7 Dream Edition (Aston Martin Green,16GB')]").click()
+await page.locator("//span[contains(text(),'Acer Super ZX 5G (Carbon Black, 6GB RAM, 128GB Sto')]").click()
 
-await page.locator('#add-to-cart-button').click()
+await page.locator("//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']").click();
 
 
 
